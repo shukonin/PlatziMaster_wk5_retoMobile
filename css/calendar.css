@@ -134,6 +134,7 @@
     background-image: linear-gradient(to bottom right, #ff8484, #ff3535);
     color: white;
     grid-row: 2;
+    box-shadow: 1px 3px 8px 0 #ff8484;
 }
 
 .orange {
@@ -142,18 +143,21 @@
     grid-row: 4 / span 2;
     margin-top: 1vh;
     margin-bottom: 2vh;
+    box-shadow: 1px 3px 8px 0 #ffc27d;
 }
 
 .purple {
     background-image: linear-gradient(to bottom right, #b26fff, #7c35ff);
     color: white;
     grid-row: 7;
+    box-shadow: 1px 3px 8px 0 #c08aff;
 }
 
 .blue {
     background-image: linear-gradient(to bottom right, #80ddff, #0ebcfb);
     color: white;
     grid-row: 11;
+    box-shadow: 1px 3px 8px 0 #80ddff;
 }
 
 /* --------------------------------------------------------footer */
