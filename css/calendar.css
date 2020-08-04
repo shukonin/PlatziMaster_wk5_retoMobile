@@ -1,3 +1,24 @@
+.month-scroll-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    padding: 2vh 2vw;
+}
+
+.month {
+    font-weight: 700;
+}
+
+.icon-circle-left, .icon-circle-right {
+    background-image: linear-gradient(to bottom right, #7395CF, #3C5073);
+    border-radius: 100%;
+    color: white;
+    box-shadow: 1px 3px 7px 0px #838383;
+    margin: 0 1vw;
+}
+
+
+/* --------------------------------------------------------footer */
 footer {
     position: fixed;
     bottom: 0; 
