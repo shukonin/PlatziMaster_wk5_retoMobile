@@ -1,3 +1,4 @@
+/* --------------------------------------------------------month-scroll */
 .month-scroll-container {
     display: flex;
     justify-content: space-between;
@@ -17,6 +18,95 @@
     margin: 0 1vw;
 }
 
+/* --------------------------------------------------------------------agenda */
+
+
+.agenda-container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    border: 2px solid white;
+    background-color: #ffffff7c;
+    border-top-left-radius: 7vw;
+    border-top-right-radius: 7vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 65%
+}
+
+/* --------------------------------------------------------days*/
+.days-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day, .day-selected {
+    text-align: center;
+    padding: 1vh 4vw;
+    border-radius: 2vw;
+}
+
+.day {
+    background-color: white;
+    box-shadow: 1px 0px 20px 0px #b1b1b154;
+}
+
+.day-selected {
+    background-image: linear-gradient(to bottom right, #FFD099, #FE9B4B);
+    box-shadow: 1px 0px 20px 0px #ffcf9969;   
+}   
+
+.day-number {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1E2843;
+}
+
+.day-number-selected {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.day-name {
+    font-weight: 600;
+    color: #1E2843;
+}
+
+.day-name-selected {
+    font-weight: 600;
+    color: white;
+}
+
+/*------------------------------------------hours*/
+.hours-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 2vh 2vw 0;
+}
+
+.hours-grid {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    border-top: 0.05rem solid #7395cf38;
+}
+
+.hours {
+    border-top: 0.05rem solid #7395cf38;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.hours p {
+    position: relative;
+    left: 55%;
+    font-weight: 600;
+}
+
+.hours-grid-slot {
+    border-bottom: 0.05rem solid #7395cf38;
+}
 
 /* --------------------------------------------------------footer */
 footer {
