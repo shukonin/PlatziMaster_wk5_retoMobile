@@ -1,0 +1,26 @@
+
+
+
+
+/* --------------------------------------------------------footer */
+
+footer a {
+    text-decoration: none;
+}
+
+.icon-cog, .icon-list, .icon-user {
+    color: gray;
+}
+
+.icon-calendar {
+    color: #FE9B4B;
+}
+
+.icon-plus {
+    color: white;
+    background-image: linear-gradient(to bottom right, #92E2FF, #1DBEF9);
+    font-size: 0.5rem;
+    padding: 2.5vh 4vw;
+    border-radius: 2vw;
+    box-shadow: 1px 4px 3px 0 #92E2FF;
+}
