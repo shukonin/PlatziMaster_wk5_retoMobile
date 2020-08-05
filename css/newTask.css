@@ -36,8 +36,120 @@
     height: 46%;
     display: grid;
     grid-template-rows: 6fr 2fr;
-
+    margin-top: 2vh;
+    border: 2px solid white;
+    background-color: #ffffff7c;
+    border-top-left-radius: 7vw;
+    border-top-right-radius: 7vw;
 }
+
+.task-settings-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3vw;
+    padding: 2vh 4vw;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 1vh 3vw;
+    background-color: white;
+    box-shadow: 4px 4px 20px 0px #9a9a9a24;
+    border-radius: 3vw;
+}
+
+.input i {
+    font-size: 1rem;
+    margin: 0 2vw;
+}
+
+.input p {
+    font-size: 0.7rem;
+}
+
+.task-date i, .task-date h3{
+    color: #1DBEF9;
+    font-weight: 500;
+}
+
+.task-timezone i, .task-timezone h3{
+    color: #ff3535;
+    font-weight: 500;
+}
+
+.task-start i, .task-start h3{
+    color: #ff9035;
+    font-weight: 500;
+}
+
+.task-end i, .task-end h3{
+    color: #7c35ff;
+    font-weight: 600;
+}
+
+.task-reminder {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reminder-text {
+    display: flex;
+    align-items: center;
+}
+
+.reminder-text i {
+    color: #d42d2d;
+    background-image: linear-gradient(to bottom right, #ffd9d9, #ffc2c2) ;
+    padding: 1.5vh;
+    border-radius: 3vw;
+}
+
+.reminder-text p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 3vw;
+}
+
+.toggle-on {
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    color: white;
+    border: 0.5px solid #9a9a9a24;
+    border-radius: 50%;
+    background-color: white;
+    padding: 1vw 1.5vw;
+    font-size: 0.3rem;
+    box-shadow: 4px 4px 20px 0px #9a9a9a8e;
+}
+
+.toggle-on .slider {
+    right: -0.5vw;
+}
+
+.slider-positions {
+    display: flex;
+    justify-content: space-between;
+    width: 8vw;
+    border: 0.5px solid #9a9a9a24;
+    border-radius: 5vw;
+}
+
+.toggle-on .slider-positions {
+    background-image: linear-gradient(to bottom right, #80ddff, #0ebcfb);
+    color: white;
+}
+
+.slider-positions p {
+    font-size: 0.6rem;
+    padding: 0 1vw;
+}
+
 
 /* ------------------------------------footer */
 footer button {

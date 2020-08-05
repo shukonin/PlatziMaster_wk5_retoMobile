@@ -24,10 +24,10 @@
 .agenda-container {
     display: grid;
     grid-template-rows: 1fr 4fr;
-    border: 2px solid white;
-    background-color: #ffffff7c;
-    border-top-left-radius: 7vw;
-    border-top-right-radius: 7vw;
+        border: 2px solid white;
+        background-color: #ffffff7c;
+        border-top-left-radius: 7vw;
+        border-top-right-radius: 7vw;
     position: absolute;
     left: 0;
     right: 0;
