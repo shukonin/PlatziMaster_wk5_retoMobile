@@ -150,6 +150,49 @@
     padding: 0 1vw;
 }
 
+/* ------------------------------------category-tags */
+
+.task-settings-category {
+    padding: 0 4vw 2vh;
+}
+
+.task-settings-category h3 {
+    color: grey;
+    font-weight: 400;
+}
+
+.category-tags {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.category-tags p {
+    padding: 0.5vh 1.5vw;
+    margin: 0 1vw;
+    border-radius: 2vw;
+    
+}
+
+.category-tags .orange-tag {
+    background-color: #ffeedb;
+    color: #fb9038;
+}
+
+.category-tags .purple-tag {
+    background-color: #ead7ff;
+    color: #7023ff;
+}
+
+.category-tags i {
+    margin: 0 2vw;
+    color: #1DBEF9;
+    background-color: white;
+    padding: 2vw 2vw;
+    border-radius: 100%;
+    box-shadow: 4px 4px 20px 0px #bdbdbd8e;
+    text-align: center;
+}
 
 /* ------------------------------------footer */
 footer button {
