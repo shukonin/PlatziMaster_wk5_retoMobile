@@ -1,5 +1,50 @@
+/* --------------------------------------------------------avatar */
+.avatar-img {
+    position: relative;
+}
 
+.avatar-img img {
+    display: block;
+    margin: 0 auto;
+    height: 14vh;
+    border: 1px solid #92E2FF;
+    border-radius: 5vw;
+    background-color: white;
+    padding: 1vw;
+}
 
+.avatar-img i {
+    position: absolute;
+    left: 56vw;
+    bottom: 0.5vh;
+    padding: 1.5vw;
+    background-color: white;
+    color: #1DBEF9;
+    border-radius: 50%;
+    box-shadow: 1px 4px 3px 0 #92E2FF;
+}
+
+.avatar-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-data h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5vh;
+    font-weight: 600;
+}
+
+.avatar-data p {
+    font-size: 0.9rem;
+    
+}
+
+.avatar-data a {
+    text-decoration: none;
+    color: #ff8724;
+}
 
 
 /* --------------------------------------------------------footer */
@@ -8,15 +53,15 @@ footer a {
     text-decoration: none;
 }
 
-.icon-cog, .icon-list, .icon-user {
+.icon-cog, .icon-list, .icon-calendar {
     color: gray;
 }
 
-.icon-calendar {
+.icon-user {
     color: #FE9B4B;
 }
 
-.icon-plus {
+footer .icon-plus {
     color: white;
     background-image: linear-gradient(to bottom right, #92E2FF, #1DBEF9);
     font-size: 0.5rem;
