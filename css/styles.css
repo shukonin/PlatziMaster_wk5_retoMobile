@@ -16,6 +16,10 @@ header {
     padding: 2vh 0 2vh 3vw;
 }
 
+header a {
+    text-decoration: none;
+}
+
 header i {
     font-size: 1.5rem;
 }
