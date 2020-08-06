@@ -66,6 +66,123 @@
 
 .profile-swipe {
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    top: -2vh;
+    width: 55vw;
+    border-radius: 5vw;
+    /* padding: 1vh 3vw 1vh 0; */
+    background-image: linear-gradient(to bottom, #7395cf, #3c5073);
+}
+
+.icon-arrow-right {
+    padding: 2vw;
+    margin: 1vw;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #3c5073;
+}
+
+.profile-swipe p {
+    margin: 0 auto;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.setting-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    background-color: white;
+    border-radius: 3vw;
+    box-shadow: 0px 8px 20px 0px #e4e4e48e;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+}
+
+.setting i {
+    font-size: 1rem;
+    margin-right: 5vw;
+    padding: 2vw;
+    border-radius: 2vw;
+}
+
+.setting p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.timezone i {
+    background-image: linear-gradient(to bottom right, #ffd9d9, #ffc2c2) ;
+    color: #d42d2d;
+}
+
+.events i {
+    background-image: linear-gradient(to bottom right, #d9fffc, #c2ffff) ;
+    color: #0ebcfb;
+}
+
+.email-reminder i {
+    background-color: #ffeedb;
+    color: #fb9038;
+}
+
+.help-support i {
+    background-color: #ead7ff;
+    color: #7023ff;
+}
+
+/* ---------------------------------------------------------toggle */
+
+.toggle-on {
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    color: white;
+    border: 0.5px solid #9a9a9a24;
+    border-radius: 50%;
+    background-color: white;
+    padding: 1vw 1.5vw;
+    font-size: 0.3rem;
+    box-shadow: 4px 4px 20px 0px #9a9a9a8e;
+}
+
+.toggle-on .slider {
+    right: -0.5vw;
+    top: -0.1vh
+}
+
+.slider-positions {
+    display: flex;
+    justify-content: space-between;
+    width: 8vw;
+    border: 0.5px solid #9a9a9a24;
+    border-radius: 5vw;
+}
+
+.toggle-on .slider-positions {
+    background-image: linear-gradient(to bottom right, #80ddff, #0ebcfb);
+    color: white;
+}
+
+.toggle-off .slider-positions {
+    background-color: lightgray;
+    color: grey;
+}
+
+.slider-positions p {
+    font-size: 0.6rem;
+    padding: 0 1vw;
 }
 
 /* --------------------------------------------------------footer */
@@ -74,7 +191,7 @@ footer a {
     text-decoration: none;
 }
 
-.icon-cog, .icon-list, .icon-calendar {
+ footer .icon-cog, footer .icon-list, footer .icon-calendar {
     color: gray;
 }
 
